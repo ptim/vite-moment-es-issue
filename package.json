@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "sourceMapExplorer": "npx source-map-explorer dist/assets/*.js"
   },
   "dependencies": {
     "moment": "^2.29.1",
