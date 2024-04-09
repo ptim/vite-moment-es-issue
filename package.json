@@ -4,7 +4,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview",
-    "sourceMapExplorer": "npx source-map-explorer dist/assets/*.js"
+    "sourceMapExplorer": "npx source-map-explorer dist/assets/*.js --html ./public/source-map-explorer.html"
   },
   "dependencies": {
     "moment": "^2.29.1",
